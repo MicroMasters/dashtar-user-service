@@ -1,5 +1,5 @@
 {
-  "name": "sonnenheu-backend",
+  "name": "dashtar-user-service",
   "version": "0.1.0",
   "description": "this is the server of dashter built with node, express, mongoose schema validation and use mongodb as a database",
   "main": "index.js",
@@ -11,8 +11,8 @@
     "data:import": "node script/seed.js",
     "product": "node script/product.js"
   },
-  "author": "Sonnenheu",
-  "license": "ISC",
+  "author": "madhusha_99",
+  "license": "MIT",
   "dependencies": {
     "@paypal/checkout-server-sdk": "^1.0.3",
     "axios": "^0.27.2",

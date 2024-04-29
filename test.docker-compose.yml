@@ -1,0 +1,10 @@
+version: "3"
+services:
+  dashtarUserService:
+    build:
+      context: ./dashtarUserService
+      dockerfile: Dockerfile
+    ports:
+      - 8080:5000
+    volumes:
+      - ./dashtarUserService:/app
